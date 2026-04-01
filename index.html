@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chintamanji Enterprises — Building The Future, Brick By Brick</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Barlow+Condensed:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+
+		<!-- ====================================
+		     HAMBURGER NAVIGATION (mobile only)
+		==================================== -->
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+			<label for="navi-toggle" class="navigation__button">
+				<span class="navigation__icon">&nbsp;</span>
+			</label>
+			<div class="navigation__background">&nbsp;</div>
+			<nav class="navigation__nav">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#about" class="navigation__link">About</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#services" class="navigation__link">Services</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#projects" class="navigation__link">Projects</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#why-us" class="navigation__link">Why Us</a>
+					</li>
+					<li class="navigation__item navigation__cta-item">
+						<a href="#contact" class="navigation__cta-link">
+							Contact Us
+							<span class="navigation__cta-arrow">&#8599;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- ====================================
+		     HEADER / NAVBAR
+		==================================== -->
+		<header class="header" id="top">
+			<nav class="nav">
+				<a href="#top" class="nav__logo-wrap">
+					<img
+						src="logo_name.png"
+						alt="Chintamanji Enterprises"
+						class="nav__logo"
+					/>
+				</a>
+				<ul class="nav__list">
+					<li><a href="#about"    class="nav__link">About</a></li>
+					<li><a href="#services" class="nav__link">Services</a></li>
+					<li><a href="#projects" class="nav__link">Projects</a></li>
+					<li><a href="#why-us"   class="nav__link">Why Us</a></li>
+				</ul>
+				<a href="#contact" class="btn btn--cta nav__cta">
+					Contact Us
+					<span class="btn__arrow">&#8599;</span>
+				</a>
+			</nav>
+		</header>
+
+		<!-- ====================================
+		     HERO SECTION
+		==================================== -->
+		<section class="hero" id="hero">
+			<div class="hero__stripe"></div>
+
+			<div class="hero__content">
+				<!-- Text block -->
+				<div class="hero__text-block">
+					<p class="hero__eyebrow">
+						<span class="hero__eyebrow-line"></span>
+						Est. Since 1995 &nbsp;·&nbsp; Pune, Maharashtra
+					</p>
+					<h1 class="hero__heading">
+						<span class="hero__heading-top">Building</span>
+						<span class="hero__heading-mid">The Future</span>
+						<span class="hero__heading-bot">Brick By Brick</span>
+					</h1>
+					<p class="hero__sub">
+						Chintamanji Enterprises delivers end-to-end civil construction
+						solutions — from residential complexes to large-scale infrastructure
+						— with unmatched precision and decades of expertise.
+					</p>
+					<div class="hero__actions">
+						<a href="#projects" class="btn btn--primary">View Our Projects</a>
+						<a href="#contact"  class="btn btn--ghost">Get a Free Quote</a>
+					</div>
+					<div class="hero__stats">
+						<div class="hero__stat">
+							<span class="hero__stat-num">28+</span>
+							<span class="hero__stat-label">Years of Experience</span>
+						</div>
+						<div class="hero__stat-divider"></div>
+						<div class="hero__stat">
+							<span class="hero__stat-num">350+</span>
+							<span class="hero__stat-label">Projects Completed</span>
+						</div>
+						<div class="hero__stat-divider"></div>
+						<div class="hero__stat">
+							<span class="hero__stat-num">40+</span>
+							<span class="hero__stat-label">Expert Engineers</span>
+						</div>
+					</div>
+				</div>
+
+				<!-- Image block -->
+				<div class="hero__visual">
+					<div class="hero__img-main">
+						<img
+							src="hero-main.png"
+							alt="Chintamanji Enterprises construction project"
+						/>
+					</div>
+					<div class="hero__badge">
+						<span class="hero__badge-icon">&#127959;</span>
+						<div class="hero__badge-text">
+							<strong>ISO Certified</strong>
+							<span>Quality Assured</span>
+						</div>
+					</div>
+					<div class="hero__img-secondary">
+						<img src="hero-sec.png" alt="Chintamanji Enterprises engineer" />
+					</div>
+					<div class="hero__dots" aria-hidden="true"></div>
+				</div>
+			</div>
+
+			<div class="hero__scroll">
+				<span class="hero__scroll-text">Scroll Down</span>
+				<div class="hero__scroll-line"></div>
+			</div>
+		</section>
+
+		<!-- ====================================
+		     MARQUEE STRIP
+		==================================== -->
+		<div class="marquee-strip" aria-hidden="true">
+			<div class="marquee-strip__track">
+				<span>Residential Construction</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Commercial Buildings</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Infrastructure Projects</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Interior Works</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Structural Engineering</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Project Management</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<!-- Duplicate for seamless loop -->
+				<span>Residential Construction</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Commercial Buildings</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Infrastructure Projects</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Interior Works</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Structural Engineering</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+				<span>Project Management</span>
+				<span class="marquee-strip__dot">&#9632;</span>
+			</div>
+		</div>
+
+		<!-- ====================================
+		     PROJECTS SECTION
+		==================================== -->
+		<section class="projects" id="projects">
+
+			<!-- Section header -->
+			<div class="projects__header fade-up">
+				<div class="projects__header-text">
+					<p class="projects__eyebrow">
+						<span class="projects__eyebrow-line"></span>
+						Our Work
+					</p>
+					<h2 class="projects__heading">
+						Projects That
+						<span class="projects__heading-accent">Speak For Themselves</span>
+					</h2>
+					<p class="projects__sub">
+						From residential townships to large-scale infrastructure —
+						every project reflects our commitment to quality and precision.
+					</p>
+				</div>
+				<a href="#" class="btn btn--outline projects__cta">
+					View All Projects
+					<span class="btn__arrow">&#8599;</span>
+				</a>
+			</div>
+
+			<!-- Projects grid -->
+			<div class="projects__grid">
+
+				<!-- Card 1 — FEATURED (spans 2 cols) -->
+				<!-- Replace: swap skeleton div with <img src="..." class="projects__card-img" alt="..." /> -->
+				<article class="projects__card projects__card--featured fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag">Residential</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Pune, Maharashtra</span>
+							<span class="projects__card-year">2023</span>
+						</div>
+						<h3 class="projects__card-title">Skyline Residency Tower A &amp; B</h3>
+						<p class="projects__card-desc">
+							A twin-tower residential complex with 240 premium units, underground
+							parking, and fully landscaped amenities spread across 3.2 acres.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Card 2 -->
+				<article class="projects__card fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag projects__card-tag--commercial">Commercial</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Nashik, Maharashtra</span>
+							<span class="projects__card-year">2022</span>
+						</div>
+						<h3 class="projects__card-title">Horizon Business Park</h3>
+						<p class="projects__card-desc">
+							A 6-storey commercial complex housing 80+ offices with a modern
+							façade and full MEP works completed under budget.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Card 3 -->
+				<article class="projects__card fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag projects__card-tag--infra">Infrastructure</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Aurangabad, Maharashtra</span>
+							<span class="projects__card-year">2022</span>
+						</div>
+						<h3 class="projects__card-title">NH-52 Road Widening &amp; Bridge</h3>
+						<p class="projects__card-desc">
+							12 km road widening project including a 180m RCC bridge over
+							Godavari river, completed 3 months ahead of schedule.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Card 4 -->
+				<article class="projects__card fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag">Residential</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Pune, Maharashtra</span>
+							<span class="projects__card-year">2021</span>
+						</div>
+						<h3 class="projects__card-title">Green Valley Township Phase II</h3>
+						<p class="projects__card-desc">
+							150 row-houses with club house, swimming pool, and full internal
+							road network across a 5-acre gated community.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Card 5 -->
+				<article class="projects__card fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag projects__card-tag--commercial">Commercial</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Mumbai, Maharashtra</span>
+							<span class="projects__card-year">2020</span>
+						</div>
+						<h3 class="projects__card-title">Andheri Logistics Warehouse</h3>
+						<p class="projects__card-desc">
+							40,000 sq ft pre-engineered warehouse with loading docks, fire
+							suppression system, and solar-ready rooftop structure.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+				<!-- Card 6 -->
+				<article class="projects__card fade-up">
+					<div class="projects__card-img-wrap">
+						<div class="projects__card-img skeleton"></div>
+						<span class="projects__card-tag projects__card-tag--infra">Infrastructure</span>
+						<div class="projects__card-overlay"></div>
+					</div>
+					<div class="projects__card-body">
+						<div class="projects__card-meta">
+							<span class="projects__card-location">&#128205; Nagpur, Maharashtra</span>
+							<span class="projects__card-year">2019</span>
+						</div>
+						<h3 class="projects__card-title">Municipal Water Treatment Plant</h3>
+						<p class="projects__card-desc">
+							Civil works for a 50 MLD water treatment facility including
+							sedimentation tanks, pump houses, and perimeter boundary walls.
+						</p>
+						<a href="#" class="projects__card-link">
+							View Project
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<line x1="5" y1="12" x2="19" y2="12"/>
+								<polyline points="12 5 19 12 12 19"/>
+							</svg>
+						</a>
+					</div>
+				</article>
+
+			</div>
+		</section>
+
+		<!-- ====================================
+		     FOOTER
+		==================================== -->
+		<footer class="footer" id="contact">
+			<div class="footer__top">
+
+				<!-- Brand col -->
+				<div class="footer__brand">
+					<img
+						src="logo_complete.png"
+						alt="Chintamanji Enterprises"
+						class="footer__logo"
+					/>
+					<p class="footer__tagline">Building The Future, Brick By Brick</p>
+					<div class="footer__socials">
+						<a href="#" class="footer__social-link" aria-label="Facebook">
+							<svg viewBox="0 0 24 24" fill="currentColor">
+								<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+							</svg>
+						</a>
+						<a href="#" class="footer__social-link" aria-label="Instagram">
+							<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+								<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+								<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+								<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+							</svg>
+						</a>
+						<a href="#" class="footer__social-link" aria-label="LinkedIn">
+							<svg viewBox="0 0 24 24" fill="currentColor">
+								<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+								<rect x="2" y="9" width="4" height="12"/>
+								<circle cx="4" cy="4" r="2"/>
+							</svg>
+						</a>
+						<a href="#" class="footer__social-link" aria-label="YouTube">
+							<svg viewBox="0 0 24 24" fill="currentColor">
+								<path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+								<polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="#141e26"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- Quick links col -->
+				<div class="footer__links-group">
+					<h4 class="footer__heading">Quick Links</h4>
+					<ul class="footer__links">
+						<li><a href="#about"    class="footer__link">About Us</a></li>
+						<li><a href="#services" class="footer__link">Services</a></li>
+						<li><a href="#projects" class="footer__link">Projects</a></li>
+						<li><a href="#why-us"   class="footer__link">Why Choose Us</a></li>
+						<li><a href="#contact"  class="footer__link">Contact</a></li>
+					</ul>
+				</div>
+
+				<!-- Services col -->
+				<div class="footer__links-group">
+					<h4 class="footer__heading">Services</h4>
+					<ul class="footer__links">
+						<li><a href="#" class="footer__link">Residential Construction</a></li>
+						<li><a href="#" class="footer__link">Commercial Projects</a></li>
+						<li><a href="#" class="footer__link">Infrastructure Works</a></li>
+						<li><a href="#" class="footer__link">Interior &amp; Finishing</a></li>
+						<li><a href="#" class="footer__link">Structural Consulting</a></li>
+					</ul>
+				</div>
+
+				<!-- Contact col -->
+				<div class="footer__contact-group">
+					<h4 class="footer__heading">Get In Touch</h4>
+					<div class="footer__contact-item">
+						<span class="footer__contact-icon">&#128205;</span>
+						<div>
+							<strong>Office Address</strong>
+							<!-- Replace with real address -->
+							<p>123, Construction House, Pune - 411001, Maharashtra, India</p>
+						</div>
+					</div>
+					<div class="footer__contact-item">
+						<span class="footer__contact-icon">&#128222;</span>
+						<div>
+							<strong>Phone</strong>
+							<!-- Replace with real numbers -->
+							<p><a href="tel:+910000000000" class="footer__link">+91 00000 00000</a></p>
+							<p><a href="tel:+910000000001" class="footer__link">+91 00000 00001</a></p>
+						</div>
+					</div>
+					<div class="footer__contact-item">
+						<span class="footer__contact-icon">&#9993;&#65039;</span>
+						<div>
+							<strong>Email</strong>
+							<!-- Replace with real email -->
+							<p>
+								<a href="mailto:info@chintamanjienterprises.com" class="footer__link">
+									info@chintamanjienterprises.com
+								</a>
+							</p>
+						</div>
+					</div>
+					<div class="footer__contact-item">
+						<span class="footer__contact-icon">&#128337;</span>
+						<div>
+							<strong>Working Hours</strong>
+							<p>Mon – Sat &nbsp;|&nbsp; 9:00 AM – 6:00 PM</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="footer__bottom">
+				<div class="footer__bottom-inner">
+					<p class="footer__copy">
+						&copy; <span id="year"></span> Chintamanji Enterprises. All rights reserved.
+					</p>
+					<div class="footer__bottom-links">
+						<a href="#" class="footer__link">Privacy Policy</a>
+						<a href="#" class="footer__link">Terms of Service</a>
+						<a href="#" class="footer__link">Sitemap</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Back to top -->
+		<button class="back-to-top" id="backToTop" aria-label="Back to top">
+			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+				<polyline points="18 15 12 9 6 15"/>
+			</svg>
+		</button>
+
+		<script src="script.js"></script>
+	</body>
+</html>
